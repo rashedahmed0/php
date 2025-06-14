@@ -16,5 +16,13 @@ function greeting($name = 'guest'){
 }
 greeting('rial');
 greeting();
+
+
+function fullName ($firstName , $lastName ){
+    $fullname =  $firstName . $lastName ;
+    return $fullname ;
+
+}
+echo  fullname('rial ' , ' ahmed');
   
 ?>
